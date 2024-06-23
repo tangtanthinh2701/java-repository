@@ -2,7 +2,7 @@ package datastructure;
 
 import bean.Item;
 
-public class Ex09JavObjectType {
+public class Ex09JavaObjectType {
 	public static void main(String[] args) {
 		String s = "Hello";
 		int a = 5;
@@ -17,5 +17,12 @@ public class Ex09JavObjectType {
 		// Custom --> Có báo nhiêu field trong 1 object class
 		// thì java cũng bắt khởi tạo object bằng từ khóa new
 		Item item = new Item(1, "Item 1", 222);
+//		System.out.println(item);
+//		System.out.println(s);
+//		System.out.println(a);
+//		System.out.println(o1);
+//		System.out.println(o2);
+//		System.out.println(o3);
+//		System.out.println(o4);
 	}
 }

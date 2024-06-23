@@ -2,7 +2,7 @@ package condition.loop;
 
 public class Ex01If {
 	public static void main(String[] args) {
-		int number = 7;
+		int number = 8;
 //		boolean isValid = isEven(number);
 		if(isEven(number)) {
 			// statement

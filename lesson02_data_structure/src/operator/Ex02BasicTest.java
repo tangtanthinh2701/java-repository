@@ -1,5 +1,4 @@
 package operator;
-
 // format code: ctrl + shift + f
 public class Ex02BasicTest {
 	public static void main(String[] args) {

@@ -31,12 +31,9 @@ public class Ex06Loop {
 		// 3rd --> Viết chương trình nhập vào 1 số nguyên hợp lệ
 		// TODO: Nếu nhập sai quá 3 lần thì thoát luôn chương trình
 		Scanner sc = new Scanner(System.in);
-		
 //		System.out.print("Enter valid number: ");
 //		String numberAsText = sc.nextLine();
-		
-		String numberAsText = "";
-		
+		String numberAsText = "";	
 		// Kiểm tra numberAsText là số thì mới parse sang int
 		// \\d: số nguyên
 		// + : 1 hoặc nhiều
@@ -62,8 +59,7 @@ public class Ex06Loop {
 		}while(!numberAsText.matches("\\d+"));
 		
 		int number = Integer.parseInt(numberAsText);
-		System.out.println("Number: " + number);
-		
+		System.out.println("Number: " + number);	
 //		int number = Integer.parseInt(sc.nextLine());
 		System.out.println("Finish");
 	}

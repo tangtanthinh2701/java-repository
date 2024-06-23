@@ -16,6 +16,5 @@ public class Ex08Final {
 		// itemA = itemB;
 		itemA.name = "Updated Item";
 		System.out.println("item: " + itemA);
-		
 	}
 }

@@ -2,7 +2,6 @@ package datastructure;
 
 public class Ex01Delcare {
 	// static --> giải thích sau: 
-	
 	// biến toàn cục, thuộc tính
 	// global variables = attributes
 	public static int largeNumber = 555;
